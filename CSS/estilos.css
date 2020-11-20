@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    width: 80%;
+    margin: 0 auto;
+}
+.menu{
+    width: 100%;
+    background: #2F2F2F;
+    text-align: center;
+    position: fixed;
+}
+
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 20px;
+    transition: all .3s ease;
+}
+
+.menu ul li:hover{
+    transform: scale(1.2);
+    background: #E94F37;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+}
+p{
+    padding-top: 100px;
+}
+
+.box-effect.ease {
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    transition: all 3s ease;
+}
+.box-effect.ease-in {
+    -webkit-transition: all 3s ease-in;
+    -moz-transition: all 3s ease-in;
+    -o-transition: all 3s ease-in;
+    transition: all 3s ease-in;
+}
+.box-effect.ease-out {
+    -webkit-transition: all 3s ease-out;
+    -moz-transition: all 3s ease-out;
+    -o-transition: all 3s ease-out;
+    transition: all 3s ease-out;
+}
+.box-effect.ease-in-out {
+    -webkit-transition: all 3s ease-in-out;
+    -moz-transition: all 3s ease-in-out;
+    -o-transition: all 3s ease-in-out;
+    transition: all 3s ease-in-out;
+}
+.box-effect.linear {
+    -webkit-transition: all 3s linear;
+    -moz-transition: all 3s linear;
+    -o-transition: all 3s linear;
+    transition: all 3s linear;
+}
+.box-effect.cubic-bezier {
+    -webkit-transition: all 3s cubic-bezier(1, -0.5, 0.5, 1);
+    -moz-transition: all 3s cubic-bezier(1, -0.5, 0.5, 1);
+    -o-transition: all 3s cubic-bezier(1, -0.5, 0.5, 1);
+    transition: all 3s cubic-bezier(1, -0.5, 0.5, 1);
+}
